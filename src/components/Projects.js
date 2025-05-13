@@ -6,46 +6,46 @@ const projects = [
     title: "Todos List",
     link: "https://azankhan65.github.io/todios/",
     description: "A React-based app to manage daily tasks with local storage.",
-    image: "/images/todos.png",
+    image: process.env.PUBLIC_URL + "/images/todos.png",
   },
   {
     title: "Currency Converter",
     link: "https://azankhan65.github.io/Currency-converter/",
     description: "Convert currencies in real time with live exchange rates.",
-    image: "/images/currency.png",
+    image: process.env.PUBLIC_URL + "/images/currency.png",
   },
   {
     title: "Budget Tracker",
     link: "https://azankhan65.github.io/budget-tracker/",
     description: "Track your expenses and manage your monthly budget easily.",
-    image: "/images/budget.png",
+    image: process.env.PUBLIC_URL + "/images/budget.png",
   },
   {
     title: "Grocery List",
     link: "https://azankhan65.github.io/grocery-list/",
     description: "Add, remove, and check off grocery items quickly.",
-    image: "/images/grocery.png",
+    image: process.env.PUBLIC_URL + "/images/grocery.png",
   },
   {
-    title: "Unit coverter",
+    title: "Unit Converter",
     link: "https://azankhan65.github.io/unit-converter/",
-    description:
-      "Converts between various units like length, mass, and temperature etc.",
-    image: "/images/unit.png",
+    description: "Converts between various units like length, mass, and temperature etc.",
+    image: process.env.PUBLIC_URL + "/images/unit.png",
   },
   {
     title: "Tic Tac Toe Game",
     link: "https://azankhan65.github.io/tic-tac-toe/",
     description: "A fun and interactive Tic Tac Toe game.",
-    image: "/images/tictactoe.png",
+    image: process.env.PUBLIC_URL + "/images/tictactoe.png",
   },
   {
-    title: "Trivia Quiz Game ",
+    title: "Trivia Quiz Game",
     link: "https://azankhan65.github.io/quiz/",
     description: "A fun Quiz Game",
-    image: "/images/quiz.png",
+    image: process.env.PUBLIC_URL + "/images/quiz.png",
   },
 ];
+
 
 const Projects = () => (
   <div className="projects">

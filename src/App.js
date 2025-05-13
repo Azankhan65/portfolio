@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
@@ -10,8 +10,6 @@ import Contact from "./components/Contact";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import "./styles/App.css";
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
 function App() {
   return (
     <Router>

@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => (
   <div className="aboutme">
-    <img src="/my profile pic.jpeg" alt="Azan Khan" />
+<img src={process.env.PUBLIC_URL + "/my-profile-pic.jpeg"} alt="Azan Khan" />
     <h3>Hello, I'm Azan Khan</h3>
     <div className="intro">
       <p>
