@@ -17,12 +17,12 @@
   display: flex;
   gap: 1.5rem;
   justify-content: flex-start;
-  overflow-x: auto; /* Allow horizontal scrolling */
-  scroll-behavior: smooth; /* Smooth scrolling */
-  width: 100%; /* Ensures it takes up full width */
-  overflow-y: hidden; /* Prevent vertical scroll */
+  overflow-x: auto;
+  scroll-behavior: smooth; 
+  width: 100%; 
+  overflow-y: hidden; 
   cursor: pointer;
-  transition: scroll-left 0.3s ease; /* Smooth transition */
+  transition: scroll-left 0.3s ease; 
 }
 
 .testimonial-square-card {
@@ -36,8 +36,8 @@
   position: relative;
   transition: transform 0.3s ease;
   cursor: pointer;
-  flex-shrink: 0; /* Prevent shrinking */
-  min-width: 250px; /* Ensures minimum width */
+  flex-shrink: 0; 
+  min-width: 250px; 
 }
 
 .testimonial-square-card:hover {
@@ -76,13 +76,13 @@
   opacity: 1;
 }
 
-/* Scrollbar custom styles */
+/* Scrollbar  styles */
 .testimonial-list::-webkit-scrollbar {
   height: 8px;
 }
 
 .testimonial-list::-webkit-scrollbar-thumb {
-  background: #007bff; /* Blue color */
+  background: #007bff; 
   border-radius: 4px;
 }
 

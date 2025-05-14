@@ -21,7 +21,6 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can add form submission logic here (e.g., API call to a server)
     alert('Thank you for reaching out!');
   };
 

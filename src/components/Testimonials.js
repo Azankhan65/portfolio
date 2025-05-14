@@ -68,8 +68,7 @@ const Testimonials = () => {
   const testimonialListRef = useRef(null);
 
   const handleWheel = (e) => {
-    e.preventDefault(); // Prevent the default vertical scroll
-    // Scroll horizontally based on the mouse wheel direction
+    e.preventDefault(); 
     testimonialListRef.current.scrollLeft += e.deltaY;
   };
 
@@ -79,7 +78,7 @@ const Testimonials = () => {
       <div
         className="testimonial-list"
         ref={testimonialListRef}
-        onWheel={handleWheel} // Listen for wheel scroll events
+        onWheel={handleWheel} 
       >
         {testimonials.map(({ id, name, text, stars }) => (
           <div key={id} className="testimonial-square-card">

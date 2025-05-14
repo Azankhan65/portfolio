@@ -19,7 +19,7 @@
 }
 
 .languages li {
-    width: calc(100% / 7 - 30px); /* 7 icons per row */
+    width: calc(100% / 7 - 30px); 
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
     font-weight: 500;
 }
 
-/* Brand Colors */
+/* languges Colors */
 .html i {
     color: #E44D26;
 }
@@ -87,11 +87,11 @@
 
 /* Increase icon size */
 .languages li i {
-    font-size: 3rem; /* Larger font size for better visibility */
+    font-size: 3rem; 
 }
 
 .languages li:hover i {
-    transform: scale(1.1); /* Slight hover effect */
+    transform: scale(1.1); 
 }
 
 /* For mobile responsiveness */

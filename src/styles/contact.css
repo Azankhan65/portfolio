@@ -3,6 +3,7 @@
   justify-content: center;
   gap: 1rem;
   margin-top: 1.2rem;
+  flex-wrap: wrap; 
 }
 
 .contact-btn,
@@ -15,12 +16,20 @@
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width: auto;
+  max-width: 300px; 
+  box-sizing: border-box; 
 }
-.cv-btn{
-	background-color: #005bb5;
+.contact-btn{
+  padding-bottom: 25px;
+}
+.cv-btn {
+  background-color: #005bb5;
 }
 
 .contact-btn:hover {
   background-color: #005bb5;
 }
+
+
 

@@ -10,25 +10,30 @@ import Contact from "./components/Contact";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import "./styles/App.css";
+
 function App() {
   return (
     <Router>
-      {" "}
       <Routes>
-        {" "}
         <Route
           path="/"
           element={
             <>
-              {" "}
-              <Header /> <AboutMe /> <Skills /> <Languages /> <Projects />{" "}
-              <Testimonials /> <Contact /> <Footer />{" "}
+              <Header />
+              <AboutMe />
+              <Skills />
+              <Languages />
+              <Projects />
+              <Testimonials />
+              <Contact />
+              <Footer />
             </>
           }
-        />{" "}
-        <Route path="/contact" element={<ContactUs />} />{" "}
-      </Routes>{" "}
+        />
+        <Route path="/contact" element={<ContactUs />} />
+      </Routes>
     </Router>
   );
 }
+
 export default App;
